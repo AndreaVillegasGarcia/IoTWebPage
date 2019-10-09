@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Future</title>
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Notable|Quicksand&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <!--HEADER-->
+    <div class='header'>
+      <a href='index.html'>
+        <img class='left' src='img/city1.jpeg'/>
+        <img class='right' src='img/city2.jpeg'>
+        <div class='titulo'>How I see the world <br/>
+          50 years from now<br/>
+          considering IoT &amp; AI
+        </div>
+      </a>
+    </div>
+    
+    <!--NAVBAR-->
+    <table id="tablaNav">
+      <tr id="barraNav">
+        <td class="textoBlanco"><a href="index.html">Home</a></td>
+        <td class="textoBlanco"><a href="sensors.php">SmartCity</a></td>
+        <td class="textoBlanco"><a href="aboutMe.html">About Me</a></td>
+        <td class="marked"><a href="contact.html">Contact</a></td>
+      </tr>
+    </table>
+    
+   
+    <div class='allContent'>
+      
+      <!--CONTENT-->
+      <div id="formulario">
+        <h2 class="sectionTitle">Contact Form</h2>
+        <form id='miform' method="get" action="http://salonso.etsisi.upm.es/samsung/procesa.php">
+          <fieldset >
+            <legend>MAKE YOUR SUGGESTION/QUESTION: </legend>
+            <table>
+              <tr>
+                <td class="columna1">Name:</td>
+                <td><input type="search" name="name" id="nombre" size=31 maxlength=15 required="required" placeholder=""></td>
+              </tr>
+              <tr>
+                <td>Email: </td>
+                <td><input type="email" id="email" name="email" size=31 maxlength=50 required="required" placeholder=""></td>
+              </tr>
+              <tr>
+                <td>Aim to contact: </td>
+                <td><input type="search" name="localidad" id="localidad" size=50 maxlength=30 required="required" placeholder=""></td>
+              </tr>
+              <tr>
+                <td> Mobile (opcional): </td>
+                <td><input type="search" name="telef" id="telef" size="31" placeholder="" pattern="^[0-9]{9}"></td>
+              </tr>
+              <tr>
+                <td> Write here your suggestion/ question: </td>
+              </tr>
+              <tr>
+                <td colspan=2><textarea cols="70" rows="30" minlength="10"></textarea></td>
+              </tr>
+              <tr>
+                <td><button type="submit" name="uno">SUBMIT</button></td>
+                <td><button type="reset">CANCEL</button></td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </section> 
+    
+    </div> 
+    <!--FOOTER-->
+    <div id="footerPrincipal">
+      <p id="textoFooter"><br/>BEST Summer Course &copy; 2019</p>
+    </div>
+    
+  </body>
+</html>
